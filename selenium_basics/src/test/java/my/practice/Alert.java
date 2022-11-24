@@ -31,6 +31,7 @@ public class Alert {
 		System.out.println(alert1);
 		driver.switchTo().alert().accept();
 		//driver.switchTo().alert().dismiss();
+		driver.quit();
 		
 
 	}
